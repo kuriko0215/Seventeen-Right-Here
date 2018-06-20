@@ -17,7 +17,7 @@ $(document).ready(function() {
     imgmountain = new Image();
     imgmountain.src = "SimpleRPG/images/material.png";
     imgenemy = new Image();
-    imgenemy.src = "SimpleRPG/images/enemy.png";
+    imgenemy.src = "SimpleRPG/images/Enemy.png";
     imgmountain.onload=function(){
       imgenemy.onload=function(){
          for(var x in mapArray)
